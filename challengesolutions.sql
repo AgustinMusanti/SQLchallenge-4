@@ -183,4 +183,14 @@ ORDER BY total_visualizaciones DESC;
 
 ## 14- Encuentra las películas con una calificación promedio superior a 8.
 
+SELECT c.titulo, 
+       AVG(t.calificacion) AS calificacion_promedio
+FROM calificaciones t
+JOIN contenido c ON t.contenido_id = c.contenido_id
+WHERE c.tipo = 'película'
+GROUP BY c.titulo
+HAVING AVG(t.calificacion) > 8
+ORDER BY calificacion_promedio DESC;
 
+
+## 15- Calcula el ingreso total generado por las suscripciones en los últimos 3 meses.
