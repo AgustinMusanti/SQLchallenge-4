@@ -158,3 +158,29 @@ FROM contenido
 GROUP BY tipo;
 
 
+## 12- Encuentra los 5 usuarios con más minutos de contenido visualizado.
+    
+SELECT  u.usuario_id, 
+        u.nombre, 
+        SUM(c.duracion) AS total_minutos_vistos
+FROM visualizaciones v
+JOIN usuarios u  ON v.usuario_id = u.usuario_id
+JOIN contenido c ON v.contenido_id = c.contenido_id
+GROUP BY u.usuario_id, u.nombre
+ORDER BY total_minutos_vistos DESC
+LIMIT 5;
+
+
+## 13- Lista los géneros más populares en función del número de visualizaciones.
+
+SELECT  c.genero, 
+COUNT(v.visualizacion_id) AS total_visualizaciones
+FROM visualizaciones v
+JOIN contenido c ON v.contenido_id = c.contenido_id
+GROUP BY c.genero
+ORDER BY total_visualizaciones DESC;
+
+
+## 14- Encuentra las películas con una calificación promedio superior a 8.
+
+
