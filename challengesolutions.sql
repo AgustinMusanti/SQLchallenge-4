@@ -77,6 +77,7 @@ CREATE INDEX idx_contenido_tipo ON contenido(tipo);
 
 
 ## Inserción y manipulación de datos (DML)
+## Respuestas a las preguntas 6,7,8,9 y 10
 
 INSERT INTO usuarios (nombre, email, fecha_registro, tipo_suscripcion, estado)
 VALUES 
