@@ -1,3 +1,6 @@
+## Creación de la base de datos y estructura (DDL)
+## Respuestas a las preguntas 1,2,3,4 y 5
+
 DROP DATABASE IF EXISTS streaming_platform;
 
 CREATE DATABASE streaming_platform;
