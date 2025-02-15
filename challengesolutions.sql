@@ -148,4 +148,13 @@ VALUES
 ALTER TABLE usuarios MODIFY COLUMN tipo_suscripcion ENUM('Mensual', 'Anual', 'Gratuita', 'Premium Familiar') NOT NULL;
 
 
+## Consultas avanzadas para validar la base de datos
+
+## 11- Obtener la cantidad total de películas y series disponibles en la plataforma.
+
+SELECT tipo, 
+COUNT(*) AS cantidad
+FROM contenido
+GROUP BY tipo;
+
 
