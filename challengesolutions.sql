@@ -1,4 +1,7 @@
+DROP DATABASE IF EXISTS streaming_platform;
+
 CREATE DATABASE streaming_platform;
+
 USE streaming_platform;
 
 CREATE TABLE usuarios (
@@ -51,6 +54,8 @@ CREATE TABLE calificaciones (
     FOREIGN KEY (usuario_id) REFERENCES usuarios(usuario_id) ON DELETE CASCADE,
     FOREIGN KEY (contenido_id) REFERENCES contenido(contenido_id) ON DELETE CASCADE
 );
+
+
 
 
 CREATE TABLE pagos (
