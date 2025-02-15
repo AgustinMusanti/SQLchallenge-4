@@ -12,7 +12,7 @@ CREATE TABLE usuarios (
     nombre VARCHAR(100) NOT NULL,
     email VARCHAR(100) UNIQUE NOT NULL,
     fecha_registro DATE NOT NULL,
-    tipo_suscripcion ENUM('Mensual', 'Anual', 'Gratuita', 'Premium Familiar') NOT NULL,
+    tipo_suscripcion ENUM('Mensual', 'Anual', 'Gratuita') NOT NULL,
     estado ENUM('Activo', 'Inactivo') NOT NULL
 );
 
@@ -84,12 +84,12 @@ VALUES
     ('María López', 'marialopez@email.com', '2024-02-15', 'Anual', 'Activo'),
     ('Carlos Gómez', 'carlosgomez@email.com', '2024-03-20', 'Gratuita', 'Activo'),
     ('Lucía Fernández', 'luciafernandez@email.com', '2024-04-05', 'Mensual', 'Inactivo'),
-    ('Pedro Martínez', 'pedromartinez@email.com', '2024-05-12', 'Premium Familiar', 'Activo'),
+    ('Pedro Martínez', 'pedromartinez@email.com', '2024-05-12', '2', 'Activo'),
     ('Sofía Ramírez', 'sofiaramirez@email.com', '2024-06-18', 'Mensual', 'Activo'),
     ('Diego Torres', 'diegotorres@email.com', '2024-07-01', 'Anual', 'Activo'),
     ('Ana Gutiérrez', 'anagutierrez@email.com', '2024-07-22', 'Gratuita', 'Activo'),
     ('Javier Ruiz', 'javierruiz@email.com', '2024-08-03', 'Mensual', 'Activo'),
-    ('Valentina Castro', 'valentinacastro@email.com', '2024-08-19', 'Premium Familiar', 'Activo');
+    ('Valentina Castro', 'valentinacastro@email.com', '2024-08-19', '1', 'Activo');
 
 
 INSERT INTO contenido (titulo, tipo, genero, duracion, año_lanzamiento)
