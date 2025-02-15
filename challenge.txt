@@ -1,0 +1,33 @@
+## Creación de la base de datos y estructura (DDL)
+
+1- Diseña la estructura de la base de datos para una plataforma de streaming, considerando entidades como usuarios, suscripciones, contenido (películas y series),
+   categorías, visualizaciones y calificaciones.
+2- Define correctamente las claves primarias y foráneas para garantizar la integridad referencial.
+3- Agrega restricciones adecuadas a los datos (por ejemplo, que la calificación de un contenido sea entre 1 y 10).
+4- Implementa índices en las columnas más consultadas para mejorar la eficiencia en consultas.
+5- Crea una tabla de registro de pagos, asegurando que refleje correctamente los ciclos de facturación de los usuarios.
+
+  
+## Inserción y manipulación de datos (DML)
+  
+6- Inserta al menos 10 usuarios con diferentes tipos de suscripción (mensual, anual, gratuita con anuncios, etc.).
+7- Agrega 15 películas y 10 series con diferentes géneros, duración y año de lanzamiento.
+8- Registra visualizaciones de usuarios, asegurando que haya usuarios que hayan visto múltiples contenidos.
+9- Inserta reseñas y calificaciones de usuarios sobre películas y series.
+10- Modifica la tabla de suscripciones para agregar una nueva categoría de suscripción “Premium Familiar” con acceso a contenido exclusivo.
+
+
+## Consultas avanzadas para validar la base de datos
+
+11- Obtén la cantidad total de películas y series disponibles en la plataforma.
+12- Encuentra los 5 usuarios con más horas de contenido visualizado.
+13- Lista los géneros más populares en función del número de visualizaciones.
+14- Encuentra las películas con una calificación promedio superior a 8.
+15- Calcula el ingreso total generado por las suscripciones en los últimos 3 meses.
+16- Identifica el usuario que ha dejado más reseñas en la plataforma.
+17- Encuentra los usuarios que han cancelado su suscripción en los últimos 6 meses.
+18- Lista las películas y series que no han sido vistas por ningún usuario.
+19- Obtén la cantidad de usuarios que tienen una suscripción activa en cada tipo de plan.
+20- Crea una consulta que prediga cuándo un usuario tendrá que renovar su suscripción basándose en su fecha de pago anterior.
+
+  
