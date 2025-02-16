@@ -14,7 +14,7 @@ El proyecto incluye **scripts SQL** para:
 ✅ Inserción de datos de prueba.
 ✅ Consultas avanzadas para obtener información clave.
 
-
+---
 
 ## 📂 Estructura del Proyecto
 ```
