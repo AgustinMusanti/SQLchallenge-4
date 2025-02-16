@@ -17,14 +17,13 @@ El proyecto incluye **scripts SQL** para:
 
 
 ## 📂 Estructura del Proyecto
-
-📦 streaming_sql_challenge
+```
+📦 SQLchallenge-4
  ├── 📄 challenge.txt  # Descripción del desafío
  ├── 📜 ddl.sql        # Creación de la base de datos y tablas (DDL)
  ├── 📜 dml.sql        # Inserción y manipulación de datos (DML)
  ├── 📜 queries.sql    # Consultas avanzadas para análisis de datos
-
-
+```
 
 
 ## 🎯 Objetivos de la Base de Datos
