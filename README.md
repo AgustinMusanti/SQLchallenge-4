@@ -10,8 +10,11 @@ Se ha diseñado un modelo de base de datos para una plataforma de streaming que 
 - Facturación y pagos
 
 El proyecto incluye **scripts SQL** para:
+
 ✅ Creación de la base de datos y tablas con restricciones e índices.
+
 ✅ Inserción de datos de prueba.
+
 ✅ Consultas avanzadas para obtener información clave.
 
 ---
