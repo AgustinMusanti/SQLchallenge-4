@@ -59,7 +59,7 @@ El proyecto incluye **scripts SQL** para:
 
 
 ## 📢 Contribuciones
-Si tienes mejoras o sugerencias, ¡puedes contribuir! Solo haz un **fork** del repositorio y envía un **pull request** con tus cambios.
+Si tenes mejoras o sugerencias, ¡podes contribuir! Solo haz un **fork** del repositorio y envía un **pull request** con tus cambios.
 
 
 ## 📄 Licencia
